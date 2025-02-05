@@ -56,5 +56,5 @@ model_id = "Qwen/QwQ-32B-Preview"
 
 agent = CodeAgent(tools=[image_generator, model_download_tool], model=HfApiModel())
 agent.run(
-    "Improve this prompt, then generate an image of it. Prompt: A cat wearing a hazmat suit in contaminated area.  Get the latest model for text-to-image from the Hugging Face Hub."
+    "Improve this prompt, then generate an image of it. Prompt: A flying red car.  Get the latest model for text-to-image from the Hugging Face Hub."
 )
